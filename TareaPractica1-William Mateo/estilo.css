@@ -1,0 +1,68 @@
+body,
+html {
+  margin: 0;
+  font-family: sans-serif;
+}
+h1 {
+  color: #000000;
+  text-align: center;
+}
+
+h2 {
+  color: #f8579a;
+  margin-top: 30px;
+}
+
+ul {
+  padding: 0;
+  width: 100%;
+}
+
+li {
+  display: inline;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  display: inline-block;
+  width: 19.5%;
+  margin-right: 0.625%;
+  text-align: center;
+  line-height: 3;
+  color: rgb(22, 3, 3);
+}
+
+li:last-child a {
+  margin-right: 0;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+html {
+  position: sticky;
+  font-family: Arial;
+  font-size: 22px;
+  background: #5b5c8b;
+}
+.sidebar {
+  position: sticky;
+  width: 25%;
+  height: 60vh;
+  background: #d6c5ff;
+  font-size: 0.65em;
+}
+a:link,
+a:visited,
+a:focus {
+  background: #d6c5ff;
+}
+
+a:hover {
+  background: rgb(61, 149, 221);
+}
+
+a:active {
+  background: rgb(26, 0, 97);
+  color: white;
+}

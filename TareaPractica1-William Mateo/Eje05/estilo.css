@@ -1,0 +1,21 @@
+ body {
+    font-family: Arial, sans-serif;
+			background-color: lightblue;
+  }
+  h1 {
+    color: #fc0800;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #0004fd;
+    margin-top: 30px;
+  }
+  
+  .section {
+    margin-bottom: 20px;
+  }
+  
+  .personal-info {
+    font-size: 16px;
+  }

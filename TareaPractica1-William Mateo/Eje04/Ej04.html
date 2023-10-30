@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Formulario</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    label {
+      display: block;
+      margin-top: 10px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="number"] {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+    }
+
+    button[type="submit"] {
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Formulario</h1>
+
+  <form action="/submit" method="post">
+    <label>
+      Nombre:
+      <input type="text" name="nombre" required>
+    </label>
+    <label>
+      Correo electrónico:
+      <input type="email" name="email" required>
+    </label>
+    <label>
+      Edad:
+      <input type="number" name="edad" required>
+    </label>
+    <br>
+    <button type="submit">Enviar</button>
+  </form>
+</body>
+
+</html>
